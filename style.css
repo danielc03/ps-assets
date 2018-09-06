@@ -351,9 +351,11 @@ footer {
   }
   .center-header a{
     padding: 5px;
+    text-align: center;
   }
   .right-header a{
     padding: 5px;
+    text-align: center;
   }
   /* SECTION 1 */
   .section1 {
