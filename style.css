@@ -2,6 +2,7 @@ html,
 body {
   /* margin: 0; */
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 ul {
@@ -326,6 +327,11 @@ footer {
     justify-content: center;
     padding: 0;
   }
+  .top-bar-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .top-bar-items {
     display: flex;
     flex-wrap: wrap;
@@ -341,9 +347,12 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .center-header a{
+    padding: 5px;
+  }
+  .right-header a{
     padding: 5px;
   }
   /* SECTION 1 */
@@ -356,6 +365,17 @@ footer {
     width: 100%;
     height: auto;
   }
+  
+  #big-text{
+    padding-right: 0px;
+    text-align: center;
+    /* padding-left: 10px; */
+  }
+  .section1-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   /* .section1-left .section1-right {
     display: flex;
     flex-direction: column;
@@ -364,6 +384,15 @@ footer {
   }
 }  */
 
+/* SECTION 2 */
+.section2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section2-text {
+  text-align: center;
+}
 /* SECTION 3  */
 .section3 {
   display: flex;
@@ -383,10 +412,29 @@ footer {
   justify-content: center;
 }
 
+.section7 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section7-left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.first-para, .second-para {
+ text-align: center;
+}
+
 footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center; 
+}
+
+.footer-items {
+  text-align: center;
 }
 /* @media only screen and (max-width: 600px) {
   .top-bar-list {
