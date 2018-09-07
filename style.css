@@ -108,7 +108,8 @@ a:hover {
   padding-left: 15px;
 }
 .section1-button {
-  padding-top: 50px; 
+  padding-top: 60px; 
+  padding-bottom: 10px;
 }
 #big-text {
   font-size: 36px;
