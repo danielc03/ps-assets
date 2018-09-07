@@ -136,6 +136,7 @@ a:hover {
 .buttons button {
   width: 120px;
   height: 40px;
+  padding-right: 5px;
   font-size: 12px;
 }
 .demo-button {
